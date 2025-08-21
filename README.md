@@ -1,5 +1,3 @@
-# static-html-template
+# Creating a Link-in-bio
 
-Use this template to create static HTML websites and deploy them on Render.
-
-Some rights reserved — see [LICENSE.txt](LICENSE.txt)
+Using basic HTML and CSS to create link-in-bio section to display my information.
