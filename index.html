@@ -3,17 +3,30 @@
 
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
 
     <title>Chris Kim's Links</title>
 
       <style>
-  * {border: 1px red dashed;}
 
+  /*
+  *{border: 1px red dashed;}
+*/
+
+  html {min-height: 100%;
+  }
+  
   body {
     padding-top: 40px;
     padding-bottom: 40px;
-    background: linear-gradient(180deg, #1f005c, #5b0060, #870160, #ac255e, #ca485c, #e16b5c, #f39060, #ffb56b)
-  }
+    background: linear-gradient(180deg, #1f005c, #5b0060, #870160, #ac255e, #ca485c, #e16b5c, #f39060, #ffb56b);
+    color: rgba(255, 255, 255, 1.0);
+    font-family: "Playfair";
+    }
 
   .avatar-image {
     width: 128px;
@@ -28,14 +41,57 @@
     border-radius: 48px;
     object-fit: cover;
     }
-</style>
+
+  .main-container {
+    max-width: 640px;
+    margin: auto;
+  }
+
+  .image-row {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .name-row {
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 24px;
+    font-weight: 900;
+  }
+
+  .social-icons-row {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .item {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .link-text {
+    text-align: center;
+    flex-grow: 1;
+  }
+
+    a {
+      color: rgba(255,255,255,1.0);
+      text-decoration: none;
+    }
+
+    .item {background-color: rgba(149,123,173,0.5); border-radius: 1000px; padding: 5px; padding-right: 53px; box-shadow: 4px 4px 10px 0px rgba(122,32,122,0.5);
+    }
+    </style>
   </head>
 
-  <body>
-
-<div class="image-row">
-  <img class="avatar-image" src="Headshot.jpeg" alt="Chris Kim headshot">
-</div>
+<body>
+  <div class="main-container">
+    <div class="image-row">
+      <img src="Headshot.jpeg" alt="Chris Kim headshot" class="avatar-image">
+    </div>
 
   <div class="name-row">
     Chris Kim
@@ -43,25 +99,26 @@
 
   <div class="social-icons-row">
     <a href="https://github.com/chrisdohyunkim" target="_blank">
-      GitHub
+      <i class="fa-brands fa-github"></i>
     </a>
 
     <a href="www.linkedin.com/in/chrisdohyunkim" target="_blank">
-      LinkedIn
+      <i class="fa-brands fa-linkedin"></i>
     </a>
   </div>
 
   <div class="links-row">
-    <class="item">
+    <div class="item">
     <img class="thumbnail" src="SelfTaughtArticle.png">
-      <a target="_blank" href="https://www.businessinsider.com/best-google-programming-courses-free-audit-2024-9">
-        8 Best Google Programming Courses for Self-Taught Developers
+     <a class="link-text" target="_blank" href="https://www.businessinsider.com/best-google-programming-courses-free-audit-2024-9">
+              8 Best Google Programming Courses for Self-Taught Developers
+     </a>
       </a>
     </div>
 
       <div class="item">
   <img class="thumbnail" src="Medium-Logo.jpg">
-      <a target="_blank" href="https://eddiebarth.medium.com/a-self-taught-developer-tools-and-resources-from-2020-onward-ebbf3ec42b0">
+      <a class="link-text" target="_blank" href="https://eddiebarth.medium.com/a-self-taught-developer-tools-and-resources-from-2020-onward-ebbf3ec42b0">
         A Self-Taught Developer — Tools and Resources from 2020-Onward
           </a>
         </div>
