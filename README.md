@@ -1,6 +1,6 @@
 <p align="center">
 
-<img width="800" height="542" alt="Screenshot 2025-08-22 at 3 17 47 PM" src="https://github.com/user-attachments/assets/781d159d-0b14-4ed9-90a4-c99e8f17218f" />
+<img width="833" height="469" alt="Screenshot 2025-08-25 at 11 48 29 AM" src="https://github.com/user-attachments/assets/8b1e69da-d05a-41dc-a0ae-51916b75d261" />
 
 # Link in Bio Project
 ## A biographical page built with just HTML and CSS, serving as a hub for my social media links and curated articles I find interesting!
