@@ -8,7 +8,7 @@
 
 
 ## How to Use
-1. Open the HTML file in a web browser.
+1. Open the HTML file in a web browser or visit the Render website at https://link-in-bio-sd6e.onrender.com
 2. Click on the social media icons or website links to be navigated to an external site.
 
 ## Author
